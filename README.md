@@ -17,7 +17,7 @@ The code implementation explains and demonstrates the following methods and func
 5. **`size()`** - Returns the number of key-value pairs in the HashMap.
 6. **`hash_function(key)`** - Computes the hash value for the given key.
 7. **`resize()`** - Resizes the underlying array to maintain optimal load factor and prevent performance degradation.
-
+8.values() - to get all the value
 ## Table of Contents
 
 - [Installation](#installation)
