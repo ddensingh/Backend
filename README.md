@@ -1,35 +1,28 @@
-# HashMap Implementation in JAVA
+# HashMap Implementation in Java
 
 ## Overview
 
-This repository contains an implementation of a **HashMap** (also known as a Hash Table) in Python. The code demonstrates how HashMap works, including various methods and functions for inserting, retrieving, and manipulating key-value pairs.
+This repository contains an implementation of a **HashMap** (also known as a Hash Table) in **Java**. The code demonstrates how HashMap works, including various methods and functions for inserting, retrieving, updating, and manipulating key-value pairs.
 
-HashMap is a fundamental data structure that stores key-value pairs and allows efficient lookup, insertion, and deletion operations, all typically with an average time complexity of O(1).
+HashMap is a widely used data structure that stores key-value pairs and allows efficient lookup, insertion, and deletion operations, all typically with an average time complexity of **O(1)**.
 
-### Concepts Explained
+### Key Concepts Explained
 
-The code implementation explains and demonstrates the following methods and functions related to the HashMap concept:
+This code demonstrates the following methods and concepts associated with HashMap:
 
-1. **`put(key, value)`** - Inserts or updates a key-value pair in the HashMap.
+1. **`put(key, value)`** - Inserts or updates a key-value pair in the HashMap. If the key already exists, the associated value is updated with the new value.
 2. **`get(key)`** - Retrieves the value associated with the given key.
 3. **`remove(key)`** - Removes the key-value pair with the specified key.
-4. **`contains_key(key)`** - Checks if a key is present in the HashMap.
-5. **`size()`** - Returns the number of key-value pairs in the HashMap.
-6. **`hash_function(key)`** - Computes the hash value for the given key.
-7. **`resize()`** - Resizes the underlying array to maintain optimal load factor and prevent performance degradation.
-8.values() - to get all the value
-## Table of Contents
+4. **`containsKey(key)`** - Checks if a key is present in the HashMap.
+5. **`containsValue(value)`** - Checks if a value is present in the HashMap.
+6. **`keySet()`** - Returns a Set view of all the keys in the HashMap.
+7. **`values()`** - Returns a Collection view of all the values in the HashMap.
+8. **`entrySet()`** - Returns a Set view of all the key-value pairs in the HashMap.
+9. **`isEmpty()`** - Checks if the HashMap is empty.
+10. **`size()`** - Returns the number of key-value pairs in the HashMap.
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Methods and Functions](#methods-and-functions)
-- [Examples](#examples)
-- [License](#license)
+### Key Methods and Functions
 
-## Installation
-
-To use this implementation, you can either clone the repository or download the Python files directly.
-
-Clone with Git:
-```bash
-git clone https://github.com/ddensingh/Backend/tree/main
+1. **`put(key, value)`**: Adds or updates the key-value pair.
+   ```java
+   m.put(101, "Dens");
